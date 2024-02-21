@@ -111,4 +111,4 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
  Number of function calls: 0 No. of observations: 2001 No. of parameters: 1 User rejected: 0 Sp. gp. extinct: 0
  Refinement time =    0.015s,    0.015s/cycle, for 1 cycles
- wR =  160.50%, chi**2 =      9482.32, GOF =   2.18
+ wR =  165.06%, chi**2 =      10064.4, GOF =   2.24
