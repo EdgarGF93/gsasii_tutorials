@@ -1,0 +1,203 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 3
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: magnetite
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Fe+2      11.04240   7.37400   4.13460   0.43990   4.65380   0.30530  12.05460  31.28090   1.00970
+ Fe+3      11.17640   7.38630   3.39480   0.07240   4.61470   0.30050  11.67290  38.55660   0.97070
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Fe+2    Nat. Abund.     55.847    0.945
+ Fe+3    Nat. Abund.     55.847    0.945
+ O-2     Nat. Abund.     15.999    0.581
+
+ Space Group: F -4 3 m
+ The lattice is noncentrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is -43m
+ Multiplicity of a general site is 96
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     Y,    -X,    -Z 
+ ( 5)    -Z,     Y,    -X 
+ ( 6)    -X,    -Z,     Y 
+ ( 7)    -X,    -Y,     Z 
+ ( 8)    -Z,     X,    -Y 
+ ( 9)    -Y,    -Z,     X 
+ (10)     X,    -Y,    -Z 
+ (11)     Z,    -X,    -Y 
+ (12)    -Y,     Z,    -X 
+ (13)    -Y,     X,    -Z 
+ (14)    -Z,    -Y,     X 
+ (15)     X,    -Z,    -Y 
+ (16)     X,     Z,     Y 
+ (17)     Y,     X,     Z 
+ (18)     Z,     Y,     X 
+ (19)     Y,    -Z,    -X 
+ (20)    -Y,    -X,     Z 
+ (21)     Z,    -Y,    -X 
+ (22)    -X,     Z,    -Y 
+ (23)    -X,     Y,    -Z 
+ (24)    -Z,    -X,     Y 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Fe1   Fe+2          0.00000   0.00000   0.00000   1.000   -43m    4    I 0.00445                                                
+    Fe2   Fe+2          0.50000   0.50000   0.50000   1.000   -43m    4    I 0.00433                                                
+    Fe3   Fe+3          0.62530   0.62530   0.62530   1.0003m(111)   16    I 0.00599                                                
+     O1    O-2          0.87220   0.87220   0.87220   1.0003m(111)   16    I 0.00450                                                
+     O2    O-2          0.38170   0.38170   0.38170   1.0003m(111)   16    I 0.01007                                                
+
+ Unit cell: a = 8.39209 b = 8.39209 c = 8.39209 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 591.032 Refine? True
+
+ Phase: magnetite in histogram: PWDR magnetit.prn
+=======================================================================================================================================
+ Perform LeBail extraction
+
+ Size model    : isotropic equatorial:       0.889 Refine? True
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR magnetit.prn histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    15.00 deg to   150.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        0.1822        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.002000
+ refine:                   False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :   24.813401 -153.866794   56.313414  -14.925977   75.979867   13.564126    0.000000
+ refine:        True        True        True        True        True        True       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:     12.650    -7.751     9.618    -4.288     2.906    -1.532     0.364     0.148
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 10 No. of observations: 6751 No. of parameters: 18 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.825s,    0.412s/cycle, for 2 cycles
+ wR =   17.43%, chi**2 =      8607.51, GOF =   1.13
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0
+ value :        0.01420
+ sig   :        0.00000 
+
+ Phases:
+ Result for phase: magnetite
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.014199076    0.014199076    0.014199076    0.000000000    0.000000000    0.000000000
+  esds  :    0.000000559                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    8.392086    8.392086    8.392086     90.0000     90.0000     90.0000     591.030
+  esds  :    0.000165                                                                   0.035
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Fe1   Fe+2:
+ values:   0.00000   0.00000   0.00000   1.000 0.00445
+ sig   :                                               
+    Fe2   Fe+2:
+ values:   0.50000   0.50000   0.50000   1.000 0.00433
+ sig   :                                               
+    Fe3   Fe+3:
+ values:   0.62530   0.62530   0.62530   1.000 0.00599
+ sig   :                                               
+     O1    O-2:
+ values:   0.87220   0.87220   0.87220   1.000 0.00450
+ sig   :                                               
+     O2    O-2:
+ values:   0.38170   0.38170   0.38170   1.000 0.01007
+ sig   :                                               
+
+ Density: 5.2042 g/cm**3
+
+ Phase: magnetite in histogram: PWDR magnetit.prn
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 0.00%, 0.00% on 52 reflections
+ Durbin-Watson statistic = 1.778
+ Bragg intensity sum = 4.52e+05
+ Performed LeBail extraction for phase magnetite in histogram PWDR magnetit.prn
+
+ Size model:     isotropic equatorial:     0.82874, sig:  3.5901 LG mix coeff.:      1.0000
+
+ Histogram: PWDR magnetit.prn histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 17.84% on 6751 observations in this histogram
+ Other residuals: R = 11.77%, R-bkg = 10.19%, wR-bkg = 17.84% wRmin = 15.43%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:     Fe+2     Fe+3      O-2
+ f'     :   -1.134   -1.134    0.049
+ f"     :    3.197    3.197    0.032
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        0.1793        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.0003                                                        
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :   31.078632 -176.237129   69.030820  -14.859089   80.358469   11.530532    0.000000
+ sig   :   16.399222   26.058015    7.831074    4.613746    5.174290    8.125868            
+
+ Background function: chebyschev-1
+ value :      12.35    -8.153     9.724    -4.183     2.872    -1.452    0.3834    0.2088
+ sig   :    0.09835    0.1621    0.1482    0.1415    0.1299    0.1239   0.09942    0.1002
+ Background sums: empirical 6.02e+04, Debye 0, peaks 0, Total 6.02e+04
