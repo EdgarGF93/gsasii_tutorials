@@ -1,0 +1,379 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 3
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: alo
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Al+3       4.17448   3.38760   1.20296   0.52814   1.93816   4.14553   0.22875   8.28524   0.70679
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Al+3    Nat. Abund.     26.982    0.345
+ O-2     Nat. Abund.     15.999    0.581
+
+ Space Group: R -3 c
+ The lattice is centrosymmetric R-centered trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is -3m
+ Multiplicity of a general site is 36
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 2/3,1/3,1/3; 1/3,2/3,2/3)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y,     Z 
+ ( 3)   Y-X,    -X,     Z 
+ ( 4)   Y-X,     Y, 1/2+Z 
+ ( 5)    -Y,    -X, 1/2+Z 
+ ( 6)     X,   X-Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Al1   Al+3          0.00000   0.00000   0.35216   1.000      3   12    A         0.00220 0.00220 0.00120 0.00110 0.00000 0.00000
+     O1    O-2          0.30668   0.00000   0.25000   1.000 2(100)   18    A         0.00210 0.00340 0.00190 0.00170 0.00035 0.00070
+
+ Unit cell: a = 4.75712 b = 4.75712 c = 12.98461 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 254.476 Refine? True
+
+ Phase name: zno
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Zn        14.07430   7.03180   5.16520   2.41000   3.26550   0.23330  10.31630  58.70970   1.30410
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Zn         0.17800   0.80960   1.67440   1.94990   1.44950   0.08760   0.86500   3.86120  18.87260  64.70160
+ O          0.03650   0.17290   0.58050   0.88140   0.31210   0.06520   0.61840   2.94490   9.62980  28.21940
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Zn      Nat. Abund.     65.380    0.568
+ O       Nat. Abund.     15.999    0.581
+
+ Space Group: P 63 m c
+ The lattice is noncentrosymmetric primitive hexagonal
+ The Laue symmetry is 6/mmm
+ The lattice point group is 6mm
+ Multiplicity of a general site is 12
+ The location of the origin is arbitrary in z
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2)   X-Y,     X, 1/2+Z 
+ ( 3)    -Y,   X-Y,     Z 
+ ( 4)    -X,    -Y, 1/2+Z 
+ ( 5)   Y-X,    -X,     Z 
+ ( 6)     Y,   Y-X, 1/2+Z 
+ ( 7)   Y-X,     Y,     Z 
+ ( 8)    -X,   Y-X, 1/2+Z 
+ ( 9)    -Y,    -X,     Z 
+ (10)   X-Y,    -Y, 1/2+Z 
+ (11)     X,   X-Y,     Z 
+ (12)     Y,     X, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Zn     Zn          0.33333   0.66667   0.00000   1.0003m(100)    2    I 0.01000                                                
+      O      O          0.33333   0.66667   0.34500   1.0003m(100)    2    I 0.01000                                                
+
+ Unit cell: a = 3.24813 b = 3.24813 c = 5.20419 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 47.550 Refine? True
+
+ Phase name: caf
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Ca+2      15.63480   7.95180   8.43720   0.85370  -0.00740   0.60890  10.31160  25.99050 -14.87500
+ F-1        3.63220   3.51057   1.26064   0.94071   5.27756  14.73530   0.44226  47.34370   0.65340
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Ca+2    Nat. Abund.     40.080    0.470
+ F-1     Nat. Abund.     18.998    0.565
+
+ Space Group: F m -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ca1   Ca+2          0.00000   0.00000   0.00000   1.000    m3m    4    I 0.01000                                                
+     F1    F-1          0.25000   0.25000   0.25000   1.000   -43m    8    I 0.01000                                                
+
+ Unit cell: a = 5.46164 b = 5.46164 c = 5.46164 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 162.918 Refine? True
+
+ Phase: alo in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Phase fraction  :        3.8 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Phase: zno in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Phase fraction  :      12.16 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Phase: caf in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Phase fraction  :      7.605 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR cpd-1h.prn histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     0.00 deg to   100.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        5.6849        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.002000
+ refine:                   False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :   -5.481628  -16.909577   23.504185   22.268496   -5.631536  -19.291580    0.000000
+ refine:        True        True        True        True        True        True       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:     39.598   -34.124    23.776   -18.209    14.742    -8.592     5.794    -3.193     2.073    -1.655     1.286
+                   -1.307     0.594     0.093    -0.043
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 5 No. of observations: 4751 No. of parameters: 30 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.345s,    0.173s/cycle, for 2 cycles
+ wR =   14.53%, chi**2 =      14333.5, GOF =   1.74
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0          1::A0          2::A0
+ value :        0.05892        0.12638        0.03352
+ sig   :        0.00000        0.00000        0.00000 
+
+ Phases:
+ Result for phase: alo
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.058918504    0.058918504    0.005931201    0.058918504    0.000000000    0.000000000
+  esds  :    0.000002514                   0.000000303                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    4.757113    4.757113   12.984603     90.0000     90.0000    120.0000     254.476
+  esds  :    0.000169                0.000332                                           0.010
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Al1   Al+3:
+ values:   0.00000   0.00000   0.35216   1.000         0.00220 0.00220 0.00120 0.00110 0.00000 0.00000
+ sig   :                                                                                               
+     O1    O-2:
+ values:   0.30668   0.00000   0.25000   1.000         0.00210 0.00340 0.00190 0.00170 0.00035 0.00070
+ sig   :                                                                                               
+
+ Density: 3.9920 g/cm**3
+ Result for phase: zno
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.126378050    0.126378050    0.036922761    0.126378050    0.000000000    0.000000000
+  esds  :    0.000002916                   0.000001103                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    3.248131    3.248131    5.204187     90.0000     90.0000    120.0000      47.550
+  esds  :    0.000062                0.000078                                           0.001
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Zn     Zn:
+ values:   0.33333   0.66667   0.00000   1.000 0.01000
+ sig   :                                               
+      O      O:
+ values:   0.33333   0.66667   0.34500   1.000 0.01000
+ sig   :                                               
+
+ Density: 5.6838 g/cm**3
+ Result for phase: caf
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.033524169    0.033524169    0.033524169    0.000000000    0.000000000    0.000000000
+  esds  :    0.000000752                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    5.461614    5.461614    5.461614     90.0000     90.0000     90.0000     162.916
+  esds  :    0.000061                                                                   0.005
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ca1   Ca+2:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     F1    F-1:
+ values:   0.25000   0.25000   0.25000   1.000 0.01000
+ sig   :                                               
+
+ Density: 3.1832 g/cm**3
+
+ Phase: alo in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 3.85%, 5.27% on 31 reflections
+ Durbin-Watson statistic = 0.757
+ Bragg intensity sum = 2.15e+05
+ Phase fraction  :     3.8004, sig   0.022615 Weight fraction  :  0.34808, sig    0.00160
+
+ Phase: zno in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 4.91%, 15.87% on 16 reflections
+ Durbin-Watson statistic = 0.757
+ Bragg intensity sum = 4.93e+05
+ Phase fraction  :     12.163, sig   0.038567 Weight fraction  :  0.29638, sig    0.00117
+
+ Phase: caf in histogram: PWDR cpd-1h.prn
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 2.35%, 4.04% on 11 reflections
+ Durbin-Watson statistic = 0.757
+ Bragg intensity sum = 3.34e+05
+ Phase fraction  :     7.6041, sig   0.030074 Weight fraction  :  0.35554, sig    0.00135
+
+ Histogram: PWDR cpd-1h.prn histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 14.53% on 4751 observations in this histogram
+ Other residuals: R = 11.47%, R-bkg = 11.25%, wR-bkg = 14.53% wRmin = 8.37%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:     Al+3      O-2       Zn        O     Ca+2      F-1
+ f'     :    0.213    0.049   -1.550    0.049    0.364    0.073
+ f"     :    0.246    0.032    0.678    0.032    1.285    0.053
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        5.6848        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.0075                                                        
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :   -4.012817  -18.524525   23.925691   22.015522   -5.508862  -19.068872    0.000000
+ sig   :    6.502777    7.891726    2.140500    5.031282    2.406817    4.520814            
+
+ Background function: chebyschev-1
+ value :       39.6    -34.12     23.78     -18.2     14.75    -8.595      5.79    -3.202     2.066    -1.659     1.284    -1.309    0.5983   0.09533  -0.04098
+ sig   :     0.3022    0.5413     0.522     0.493     0.473    0.4588    0.4455    0.4252    0.4146    0.3916    0.3757    0.3389    0.3408    0.2986    0.2868
+ Background sums: empirical 1.45e+05, Debye 0, peaks 0, Total 1.45e+05
